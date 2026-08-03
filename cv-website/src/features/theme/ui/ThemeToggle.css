@@ -1,0 +1,19 @@
+.theme-toggle {
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  background: rgba(128, 128, 128, 0.1);
+}
